@@ -1,6 +1,6 @@
-# DOUBLY LINKED LIST
+# CIRCULAR LINKED LIST
 
-The class DLL in DoublyLinkedList.py implements all the basic operations of a Doubly Linked List. A doubly linked list is a data structure where each node has a value associated to it and two pointers previous and next. The advantage of a doubly linked list is that, given a node in the list, we con navigate in both directions.
+The class CLL in CircularLinkedList.py implements all the basic operations of a Circular Linked List. A circular linked list is a data structure where each node has a value associated to it and pointer pointing to the next node in the list. The only difference between the singly linked list and the circular one is that the last node in the CLL is pointed to the first node in the list making it circular.
 
 Functions of DLL:
 * ### traverseList(): 
@@ -22,7 +22,7 @@ Functions of DLL:
 		pos: position at which you want to add the node
 	> For adding a new node at any position 'pos' in the linked list
 
-* ### deleteAtBeginning():
+* ### deleteAtFront():
 	> Delete the first node of the linked list
 
 * ### deleteAtEnd():
@@ -33,7 +33,7 @@ Functions of DLL:
 		pos: position at which you want to delete a node
 	> Delete the node at position 'pos' of the linked list
 
-* ### addNodes(arr):
+* ### insertNodes(arr):
 	#### arguments:
 		arr: array, tupple, set or any iterable object whose data you want to add to the linked list
 	> For adding all the elements of 'arr' to the list
@@ -50,6 +50,3 @@ Functions of DLL:
 
 * ### count():
 	> For returning no. of nodes in the linked list
-
-* ### reverseList():
-	> For reversing the linked list
