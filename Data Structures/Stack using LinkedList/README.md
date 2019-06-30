@@ -1,6 +1,6 @@
-# IMPLEMENTING STACK USING ARRAY
+# IMPLEMENTING STACK USING LINKED LIST
 
-The class Stack implements all the basic operations of Stack ADT. A stack is a data structure where you add or remove an element from the top only.
+The class Stack implements all the basic operations of Stack ADT. A stack is a data structure where you add or remove an element only from the top.
 
 Functions of DLL:
 * ### printStack(): 
