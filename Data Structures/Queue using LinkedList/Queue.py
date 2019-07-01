@@ -94,4 +94,4 @@ class Queue:
 
             return
 
-        return self.front.datah
+        return self.front.data
