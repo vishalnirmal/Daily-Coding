@@ -1,6 +1,6 @@
 # IMPLEMENTING STACK USING ARRAY
 
-The class Stack implements all the basic operations of Stack ADT. A stack is a data structure where you add or remove an element from the top only.
+The class Stack implements all the basic operations of Stack ADT. A stack is a data structure where you add or remove an element from the top only. This particular manner of addition and deletion is known as First in Last Out (FILO) or Last in First Out (LIFO).
 
 Functions of DLL:
 * ### printStack(): 
