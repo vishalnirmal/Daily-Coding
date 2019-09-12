@@ -2,7 +2,7 @@
 
 A disjoint-set data structure is a data structure that keeps track of a set of elements partitioned into a number of disjoint (non-overlapping) subsets
 
-Functions of DLL:
+Functions of DISJOINT-SET:
 * ### makeset(): 
 	> Used to create an array with default value -1
 
