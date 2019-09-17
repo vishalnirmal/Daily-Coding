@@ -1,4 +1,4 @@
-# Sorting
+# Searching
 
 Searching is the process of finding an item with specified properties from a collection of items. The items may be stored as records in a database, simple data elements in arrays, text in files, nodes in trees, vertices and edges in graph, or they may be elements of some other search spaces.
 
