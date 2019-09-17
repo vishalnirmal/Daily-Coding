@@ -77,13 +77,13 @@ Similar to counting sort and bucket sort, radix sort also assumes some kind of i
 |**Bucket**|O(n)|O(n)|O(n)|-|Best for arrays whose elements are in a fixed range|
 |**Radix**|O(n)|O(n)|O(n)|-|Works best for small no. of elements|
 
-[Bubble Sort]: \bubble_sort.py
-[Selection Sort]: \selection_sort.py
-[Insertion Sort]: \insertion_sort.py
-[Shell Sort]: \shell_sort.py
-[Merge Sort]: \merge_sort.py
-[Quick Sort]: \quick_sort.py
-[Heap Sort]: \heap_sort.py
-[Counting Sort]: \counting_sort.py
-[Bucket Sort]: \bucket_sort.py
-[Radix Sort]: \radix_sort.py
+[Bubble Sort]: bubble_sort.py
+[Selection Sort]: selection_sort.py
+[Insertion Sort]: insertion_sort.py
+[Shell Sort]: shell_sort.py
+[Merge Sort]: merge_sort.py
+[Quick Sort]: quick_sort.py
+[Heap Sort]: heap_sort.py
+[Counting Sort]: counting_sort.py
+[Bucket Sort]: bucket_sort.py
+[Radix Sort]: radix_sort.py
