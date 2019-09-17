@@ -6,19 +6,19 @@ Sorting is an algorithm to arrange the elements of a list in a certain order. So
 
 Bubble Sort is the simplest sorting algorithm. It works by iterating over the input array from the first element to the last, comparing each pair of elements and swapping them if needed. Bubble sort continues its iterations until no more swaps are needed. The algorithm gets its name from the way smaller elements "bubble" to the top of the list.
 
-> Bubble Sort takes O(n2) (even in best case) and a space complexity of O(1).
+> Bubble Sort takes O(n^2) (even in best case) and a space complexity of O(1).
 
 ## [Selection Sort]
 
 Selection Sort is an in-place sorting algorithm. Selection sort works well for small files. It is used for sorting the files with very large values and small keys. This is because selection us made based on keys and swaps are made only when required.
 
-> Selection Sort has an worst case complextity of O(n2) and a space complexity of O(1).
+> Selection Sort has an worst case complextity of O(n^2) and a space complexity of O(1).
 
 ## [Insertion Sort]
 
 Insertion Sort is a simple and efficient comparison sort. In this algorithm, each iteration removes an element from the input data and inserts it into the correct position in the list being sorted. The choice of the element being removed from the input is random and this process is repeated until all the input elements have gone through.
 
-> Insertion Sort has a worst case complexity of O(n2) and a space complexity of O(1).
+> Insertion Sort has a worst case complexity of O(n^2) and a space complexity of O(1).
 
 ## [Shell Sort]
 
@@ -66,16 +66,16 @@ Similar to counting sort and bucket sort, radix sort also assumes some kind of i
 
 |Name|Average Case|Best Case|Auxilary Memory|Is Stable|Notes|
 |---|--|---|--|---|--|
-|**Bubble**| $$O(n^{2})$$ | $$O(n^{2})$$ | $$O(1)$$ |Yes|Small Code|
-|**Selection**|$$O(n^{2})$$|$$O(n^{2})$$|$$O(1)$$|No|Requires least number of swaps|
-|**Insertion**|$$O(n^{2})$$|$$O(n^{2})$$|$$O(1)$$|Yes|Average case is also $$O(n + d)$$, where d is the number of inversion|
-|**Shell**|$$-$$|$$O(nlog^{2}n)$$|$$O(1)$$|No| It is also called n-gap insertion sort|
-|**Merge**|$$O(nlogn)$$|$$O(nlogn)$$|$$O(1)$$|Yes|It works on Divide & Conquer strategy|
-|**Quick**|$$O(nlogn)$$|$$O(nlogn)$$|$$O(1)$$|No|It works on Divide & Conquer strategy|
-|**Heap**|$$O(nlogn)$$|$$O(nlogn)$$|$$O(1)$$|No|It is best for finding n maximum nos. or someting like this|
-|**Counting**|$$O(n)$$|$$O(n)$$|$$O(n)$$|$$-$$|Best for arrays whose elements are in a fixed range|
-|**Bucket**|$$O(n)$$|$$O(n)$$|$$O(n)$$|$$-$$|Best for arrays whose elements are in a fixed range|
-|**Radix**|$$O(n)$$|$$O(n)$$|$$O(n)$$|$$-$$|Works best for small no. of elements|
+|**Bubble**| O(n 2) | O(n 2) | O(1) |Yes|Small Code|
+|**Selection**|O(n 2)|O(n 2)|O(1)|No|Requires least number of swaps|
+|**Insertion**|O(n 2)|O(n 2)|O(1)|Yes|Average case is also O(n + d), where d is the number of inversion|
+|**Shell**|-|O(nlog 2n)|O(1)|No| It is also called n-gap insertion sort|
+|**Merge**|O(nlogn)|O(nlogn)|O(1)|Yes|It works on Divide & Conquer strategy|
+|**Quick**|O(nlogn)|O(nlogn)|O(1)|No|It works on Divide & Conquer strategy|
+|**Heap**|O(nlogn)|O(nlogn)|O(1)|No|It is best for finding n maximum nos. or someting like this|
+|**Counting**|O(n)|O(n)|O(n)|-|Best for arrays whose elements are in a fixed range|
+|**Bucket**|O(n)|O(n)|O(n)|-|Best for arrays whose elements are in a fixed range|
+|**Radix**|O(n)|O(n)|O(n)|-|Works best for small no. of elements|
 
 [Bubble Sort]: \bubble_sort.py
 [Selection Sort]: \selection_sort.py

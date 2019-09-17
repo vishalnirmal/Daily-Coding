@@ -24,9 +24,9 @@ Interpolation Search like Binary Search, always chooses the middle of the remain
 
 |Name|Worst Case|Average Case|
 |---|--|---|
-|**Linear Search**| $$O(n)$$ | $$O(n)$$ |
-|**Binary Search**|$$O(logn)$$|$$O(logn)$$|
-|**Interpolation Search**|$$O(n)$$|$$O(log(logn))$$|
+|**Linear Search**| O(n) | O(n) |
+|**Binary Search**|O(logn)|O(logn)|
+|**Interpolation Search**|O(n)|O(log(logn))|
 
 [Linear Search]: \linear_search.py
 [Binary Search]: \binary_search.py
