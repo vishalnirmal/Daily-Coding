@@ -1,8 +1,6 @@
 ##############################################
 # Interpolation Search                       #
 # by Vishal Nirmal                           #
-#                                            #
-# An Interpolation Search algorithm.         #
 ##############################################
 
 
