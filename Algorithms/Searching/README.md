@@ -33,7 +33,9 @@ Bloom Filter is a very light data structure which could test whether a given val
 |**Linear Search**| O(n) | O(n) |
 |**Binary Search**|O(logn)|O(logn)|
 |**Interpolation Search**|O(n)|O(log(logn))|
+|**Bloom Filter**|O(k)|O(k)|
 
 [Linear Search]: linear_search.py
 [Binary Search]: binary_search.py
 [Interpolation Search]: interpolation_search.py
+[Bloom Filter]: bloom_filter.py
