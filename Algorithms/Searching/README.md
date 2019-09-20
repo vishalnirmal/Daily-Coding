@@ -20,6 +20,12 @@ Interpolation Search like Binary Search, always chooses the middle of the remain
 
 > Interpolation Search has a complexity of O(logn).
 
+## [Bloom Filter]
+
+Bloom Filter is a very light data structure which could test whether a given value is in the array or not. It was invented by Burton Howard Bloom in 1970. The price paid for the efficiency is that the output given tells us either the data is **definetly not** in the set or **may be** present in the set.
+
+> Bloom Filter has a complexity of O(k) where k is the no. of hash functions used.
+
 ## Comparison of Sorting Algorithms
 
 |Name|Worst Case|Average Case|
